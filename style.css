@@ -1,0 +1,80 @@
+*{
+    margin:0;
+    padding:0;
+}
+.button{
+    height:18vmin;
+    width:18vmin;
+    background-color: white;
+    border-radius: 20%;
+    border-width: 0px;
+    color:red;
+    font-size: 20px;
+
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:70vh;
+}
+.content{
+    height: 60vmin;
+    width: 60vmin;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: center;
+    row-gap: 5%;
+    gap:5%;
+}
+body{
+    background-color: aquamarine;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    color:purple
+}
+.newbutton{
+    background-color: darkslateblue;
+    color:white;
+    height: 3.7rem;
+    width: 8rem;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-width: 0px;
+    border-radius: 1rem;
+    font-size: 3vmin;
+}
+.winner{
+    font-size: 2rem;
+    background-color: chocolate;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:gold;
+    gap:1rem;
+    height: 8rem;
+    
+}
+.newbutton2{
+    background-color: darkslateblue;
+    color:white;
+    height: 3.7rem;
+    width: 8rem;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-width: 0px;
+    border-radius: 1rem;
+    font-size: 3vmin;
+    margin-bottom: 0.5rem;
+}
+.hidden2{
+    display: none;
+}
